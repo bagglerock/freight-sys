@@ -1,4 +1,17 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
 main {
     background-image: url("../images/seaport.jpg");
     height: 530px;
+}
+
+footer {
+    //position: relative;
+    bottom: 0px;
+}
+
+.something {
+    height: 200px;
 }
