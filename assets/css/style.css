@@ -10,8 +10,7 @@ header{
 
 }
 
-main {
-    background-color: yellow;
+#main {
     background-image: url("../images/seaport.jpg");
     background-size: cover;
     height: 520px;
@@ -50,8 +49,8 @@ footer {
 
 #mission {
     box-sizing: border-box;
-    top:50px;
-    height: 225px;
+    top:40px;
+    height: 275px;
     padding-top: 10px;
     color: white;
     background-color: #00008B;
