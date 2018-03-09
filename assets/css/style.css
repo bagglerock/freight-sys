@@ -3,6 +3,10 @@ body {
 
 }
 
+main {
+    border-bottom: solid black 20px;
+}
+
 header{
     background-color: white;
     height: 45px;
@@ -77,6 +81,16 @@ footer {
 
 }
 
+#floating-back {
+    background-color: black;
+    position: absolute;
+    float: left;
+    height: 520px;
+    width: 100%;
+    opacity: 0.5;
+    margin-left: 0;
+}
+
 #location {
     background-image: url("../images/containers.jpg");
     background-size: cover;
@@ -115,13 +129,15 @@ footer {
 }
 
 #overlay {
+    position: absolute;
     top: 50px;
     color: white;
+    z-index: +1;
 
 }
 
 #overlay h1 {
-    font-size: 60px;
+    font-size: 50px;
 }
 
 #about {
@@ -136,3 +152,28 @@ footer {
     font-size: 20px;
 
 }
+
+@media only screen and (min-width: 768px) {
+    #floating-back {
+        width: 50%;
+        margin-left: 8.33%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #floating-back {
+        width: 50%;
+        margin-left: 16.6%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #floating-back {
+        width: 40%;
+        margin-left: 25%;
+    }
+}
+
+
+
+
