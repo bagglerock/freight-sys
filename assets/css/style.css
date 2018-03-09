@@ -45,13 +45,6 @@ footer {
 
 }
 
-#location {
-    background-image: url("../images/containers.jpg");
-    background-size: cover;
-    height: 100px;
-
-}
-
 #mission {
     box-sizing: border-box;
     top:40px;
@@ -66,4 +59,23 @@ footer {
 #mission h5 {
     line-height: 50px;
 
+}
+
+#location {
+    background-image: url("../images/containers.jpg");
+    background-size: cover;
+    height: 520px;
+
+}
+
+#google-map-embed {
+    margin-top: 35px;
+}
+
+#address {
+    margin-top: 35px;
+    height: 100px;
+    background-color: #00008B;
+    color: white;
+    padding: 15px 0 0 50px;
 }
