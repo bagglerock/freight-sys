@@ -45,6 +45,13 @@ footer {
 
 }
 
+#location {
+    background-image: url("../images/containers.jpg");
+    background-size: cover;
+    height: 100px;
+
+}
+
 #mission {
     box-sizing: border-box;
     top:40px;
