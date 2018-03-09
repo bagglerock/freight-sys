@@ -21,7 +21,7 @@ footer {
 
 .nav-item {
     padding-left: 60px;
-    margin: 0 10px;
+    margin: 0 1em;
     font-size: 18px;
 
 }
@@ -88,10 +88,32 @@ footer {
     height: 450px;
 }
 
-#address {
-    margin-top: 35px;
-    height: 80px;
-    background-color: #00008B;
-    color: white;
-    padding: 5px 0 0 5px;
+#directions {
+    margin-top: 15px;
+}
+
+#contact {
+    background-image: url("../images/shipyard.jpg");
+    background-size: cover;
+    height: 520px;
+
+}
+
+#contact-information {
+    top: 100px;
+    color: black;
+    font-size: 25px;
+    border: solid #00008B 2px;
+}
+
+#contact-information ul li {
+    list-style-type: none;
+}
+
+#contact-information ul {
+    padding-left: 0;
+}
+
+#contact-information h2 {
+    border-bottom: solid black 2px;
 }
