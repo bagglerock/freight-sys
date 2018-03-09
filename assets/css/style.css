@@ -100,20 +100,38 @@ footer {
 }
 
 #contact-information {
-    top: 100px;
     color: black;
-    font-size: 25px;
-    border: solid #00008B 2px;
+    font-size: 20px;
 }
 
 #contact-information ul li {
     list-style-type: none;
 }
 
-#contact-information ul {
-    padding-left: 0;
-}
 
 #contact-information h2 {
     border-bottom: solid black 2px;
+}
+
+#overlay {
+    top: 50px;
+    color: white;
+
+}
+
+#overlay h1 {
+    font-size: 60px;
+}
+
+#about {
+    background-image: url("../images/sunset.jpg");
+    background-size: cover;
+    height: 520px;
+
+}
+
+#about-information {
+    color: black;
+    font-size: 20px;
+
 }
