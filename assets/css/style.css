@@ -5,7 +5,7 @@ body {
 
 header{
     background-color: white;
-    height: 50px;
+    height: 45px;
     border-bottom: solid slategray 2px;
 
 }
@@ -14,12 +14,12 @@ main {
     background-color: yellow;
     background-image: url("../images/seaport.jpg");
     background-size: cover;
-    height: 600px;
+    height: 520px;
 
 }
 
 footer {
-    background-color: blue;
+    background-color: darkslategray;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -42,4 +42,18 @@ footer {
 #phone-number {
     float: right;
     padding-top: 5px;
+}
+
+#mission {
+    box-sizing: border-box;
+    top:50px;
+    height: 225px;
+    padding-top: 10px;
+    color: white;
+    background-color: darkslategray;
+    
+}
+
+#mission h5 {
+    line-height: 40px;
 }
