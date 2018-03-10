@@ -57,11 +57,29 @@ footer {
 
 }
 
-#main {
-    background-image: url("../images/seaport.jpg");
+#main, #about, #location, #contact {
     background-size: cover;
     height: 520px;
     display: none;
+}
+
+#main {
+    background-image: url("../images/seaport.jpg");
+
+}
+
+#location {
+    background-image: url("../images/containers.jpg");
+
+}
+
+#contact {
+    background-image: url("../images/shipyard.jpg");
+
+}
+
+#about {
+    background-image: url("../images/sunset.jpg");
 
 }
 
@@ -92,14 +110,6 @@ footer {
 
 }
 
-#location {
-    background-image: url("../images/containers.jpg");
-    background-size: cover;
-    height: 520px;
-    display: none;
-
-}
-
 #google-map-embed {
     margin-top: 35px;
     height: 450px;
@@ -108,14 +118,6 @@ footer {
 
 #directions {
     margin-top: 15px;
-
-}
-
-#contact {
-    background-image: url("../images/shipyard.jpg");
-    background-size: cover;
-    height: 520px;
-    display: none;
 
 }
 
@@ -129,7 +131,6 @@ footer {
     list-style-type: none;
 
 }
-
 
 #contact-information h2 {
     border-bottom: solid black 2px;
@@ -146,14 +147,6 @@ footer {
 
 #overlay h1 {
     font-size: 50px;
-
-}
-
-#about {
-    background-image: url("../images/sunset.jpg");
-    background-size: cover;
-    height: 520px;
-    display: none;s
 
 }
 
