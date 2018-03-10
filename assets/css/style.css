@@ -87,7 +87,7 @@ footer {
     float: left;
     height: 100%;
     width: 100%;
-    opacity: 0.5;
+    opacity: 0.3;
     margin-left: 0;
 
 }
@@ -96,42 +96,49 @@ footer {
     background-image: url("../images/containers.jpg");
     background-size: cover;
     height: 520px;
+    display: none;
 
 }
 
 #google-map-embed {
     margin-top: 35px;
     height: 450px;
+
 }
 
 #directions {
     margin-top: 15px;
+
 }
 
 #contact {
     background-image: url("../images/shipyard.jpg");
     background-size: cover;
     height: 520px;
+    display: none;
 
 }
 
 #contact-information {
     color: black;
     font-size: 20px;
+
 }
 
 #contact-information ul li {
     list-style-type: none;
+
 }
 
 
 #contact-information h2 {
     border-bottom: solid black 2px;
+
 }
 
 #overlay {
     position: absolute;
-    top: 50px;
+    top: 200px;
     color: white;
     z-index: +1;
 
@@ -139,12 +146,14 @@ footer {
 
 #overlay h1 {
     font-size: 50px;
+
 }
 
 #about {
     background-image: url("../images/sunset.jpg");
     background-size: cover;
     height: 520px;
+    display: none;s
 
 }
 
@@ -152,6 +161,20 @@ footer {
     color: black;
     font-size: 20px;
 
+}
+
+@media only screen and (max-width: 600px) {
+    #overlay {
+        top: 75px;
+    }
+
+    #overlay h1{
+        font-size: 25px;
+    }
+
+    #main, #about, #contact{
+        height: 250px;
+    }
 }
 
 
