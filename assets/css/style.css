@@ -85,10 +85,11 @@ footer {
     background-color: black;
     position: absolute;
     float: left;
-    height: 520px;
+    height: 100%;
     width: 100%;
     opacity: 0.5;
     margin-left: 0;
+
 }
 
 #location {
@@ -153,26 +154,7 @@ footer {
 
 }
 
-@media only screen and (min-width: 768px) {
-    #floating-back {
-        width: 50%;
-        margin-left: 8.33%;
-    }
-}
 
-@media only screen and (min-width: 992px) {
-    #floating-back {
-        width: 50%;
-        margin-left: 16.6%;
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    #floating-back {
-        width: 40%;
-        margin-left: 25%;
-    }
-}
 
 
 
