@@ -9,7 +9,7 @@ main {
 
 header{
     background-color: white;
-    height: 45px;
+    height: 55px;
     border-bottom: solid #00008B 2px;
 
 }
@@ -46,6 +46,26 @@ footer {
     height: 100%;
   }
 
+  section{
+      background-color: #ffbb33;
+      font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  .section {
+      margin-top: 15px;
+  }
+
+  .section-header {
+      border-bottom: solid black 1px;
+      font-weight: bold;
+      margin-bottom: 20px;
+  }
+  
+  .section ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
 #company-name {
     float: left;
 
@@ -53,13 +73,14 @@ footer {
 
 #phone-number {
     float: right;
-    padding-top: 5px;
+    padding-top: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
 
 }
 
 #main, #about, #location, #contact {
     background-size: cover;
-    height: 520px;
+    height: 420px;
     display: none;
 }
 
@@ -112,7 +133,7 @@ footer {
 
 #google-map-embed {
     margin-top: 35px;
-    height: 450px;
+    height: 350px;
 
 }
 
@@ -139,7 +160,7 @@ footer {
 
 #overlay {
     position: absolute;
-    top: 200px;
+    top: 175px;
     color: white;
     z-index: +1;
 
@@ -147,12 +168,7 @@ footer {
 
 #overlay h1 {
     font-size: 50px;
-
-}
-
-#about-information {
-    color: black;
-    font-size: 20px;
+    font-weight: bold;
 
 }
 
