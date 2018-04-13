@@ -1,17 +1,16 @@
 body {
     font-family: 'Yanone Kaffeesatz', sans-serif;
-
+    background-color: #00008B;
 }
 
 main {
     border-bottom: solid black 20px;
 }
 
-header{
+header {
     background-color: white;
     height: 55px;
     border-bottom: solid #00008B 2px;
-
 }
 
 footer {
@@ -21,103 +20,95 @@ footer {
     height: 100px;
     text-align: center;
     color: white;
-
 }
 
 .nav-item {
     padding-left: 60px;
     margin: 0 0px;
     font-size: 18px;
-
 }
 
 .iframe-map {
     position: relative;
     height: 0;
     overflow: hidden;
-  }
-  
-  
-  .iframe-map iframe {
+}
+
+.iframe-map iframe {
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-  }
+}
 
-  section{
-      background-color: #ffbb33;
-      font-family: 'Source Sans Pro', sans-serif;
-  }
+section {
+    background-color: #ffbb33;
+    font-family: 'Source Sans Pro', sans-serif;
+}
 
-  .section {
-      margin-top: 15px;
-  }
+.section {
+    margin-top: 15px;
+}
 
-  .section-header {
-      border-bottom: solid black 1px;
-      font-weight: bold;
-      margin-bottom: 20px;
-  }
-  
-  .section ul {
+.section-header {
+    border-bottom: solid black 1px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section ul {
     list-style: none;
     padding-left: 0;
-  }
+}
 
 #company-name {
     float: left;
-
 }
 
 #phone-number {
     float: right;
     padding-top: 10px;
     font-family: 'Source Sans Pro', sans-serif;
-
 }
 
-#main, #about, #location, #contact {
+#main,
+#about,
+#location,
+#contact {
     background-size: cover;
     height: 420px;
     display: none;
 }
 
 #main {
-    background-image: url("../images/seaport.jpg");
-
+    background-image: url("../images/PortNewarkNJTurnpike.jpg");
 }
 
 #location {
     background-image: url("../images/containers.jpg");
-
 }
 
 #contact {
     background-image: url("../images/shipyard.jpg");
-
 }
 
 #about {
     background-image: url("../images/sunset.jpg");
-
 }
 
 #mission {
     box-sizing: border-box;
-    top:40px;
+    top: 40px;
     height: 275px;
     padding-top: 10px;
     color: white;
     background-color: #00008B;
     display: none;
-    
 }
 
 #mission h5 {
     line-height: 50px;
-
 }
 
 #floating-back {
@@ -128,66 +119,52 @@ footer {
     width: 100%;
     opacity: 0.3;
     margin-left: 0;
-
 }
 
 #google-map-embed {
     margin-top: 35px;
     height: 350px;
-
 }
 
 #directions {
     margin-top: 15px;
-
 }
 
 #contact-information {
     color: black;
     font-size: 20px;
-
 }
 
 #contact-information ul li {
     list-style-type: none;
-
 }
 
 #contact-information h2 {
     border-bottom: solid black 2px;
-
 }
 
 #overlay {
     position: absolute;
-    top: 175px;
+    top: 155px;
     color: white;
     z-index: +1;
-
 }
 
 #overlay h1 {
     font-size: 50px;
     font-weight: bold;
-
 }
 
 @media only screen and (max-width: 600px) {
     #overlay {
         top: 75px;
     }
-
-    #overlay h1{
+    #overlay h1 {
         font-size: 25px;
     }
-
-    #main, #about, #contact{
+    #main,
+    #about,
+    #contact {
         height: 250px;
     }
 }
-
-
-
-
-
-
